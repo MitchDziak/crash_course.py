@@ -1,0 +1,6 @@
+# This is my first fun program.
+
+print("Welcome to my first program that's supposed to be fun or something!")
+print("")
+title = "A NEAT STORY"
+print(\t\t\ttitle)
