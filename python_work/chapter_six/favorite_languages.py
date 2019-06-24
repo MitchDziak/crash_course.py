@@ -4,6 +4,7 @@ favorite_languages = {
     'jen': ['python', 'ruby'],
     'sarah': ['c'],
     'edward': ['ruby', 'go'],
+    'joe': ['ti-basic'],
     'phil': ['python', 'haskell'],
     }
 

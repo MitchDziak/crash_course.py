@@ -21,4 +21,6 @@ for city, info in cities.items():
     population = str(info['population'])
     fact = info['fact']
     
-    print("\n + city.title()
+    print("\n" + city.title())
+    print("Located in " + country + ".\nPopulation of" + population
+        + ".\nKnown for its " + fact + ".")
