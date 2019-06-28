@@ -1,5 +1,10 @@
-sandwich_orders = ['ham', 'salami', 'jelly', 'club', 'cheese']
+sandwich_orders = ['ham', 'pastrami', 'pastrami', 'jelly', 'club', 'pastrami']
 finished_sandwiches = []
+
+print("The deli has run out of pastrami.")
+
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
 
 while sandwich_orders:
     production = sandwich_orders.pop()
